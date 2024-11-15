@@ -1,0 +1,60 @@
+CONTACT INFO:
+Name and Lastname: MARIANO MAISONNAVE  
+Phone number: +1 (902) 448-5124  
+Email address: maisonnavemariano@gmail.com  
+LinkedIn: https://www.linkedin.com/in/mariano-maisonnave/  
+Google Scholar: https://scholar.google.com/citations?user=SAZG8aYAAAAJ&hl=en  
+Residing in: Lower Sackville, Nova Scotia  
+
+---
+
+OBJECTIVE:  
+Experienced postdoctoral researcher with 8+ years in Machine Learning, based in Halifax. Expertise in Large Language Models (LLMs), NLP, causality analysis, time series analysis, and explainable ML tools. Proven track record of impactful research in computer science, energy, healthcare, and social sciences.
+
+---
+
+SELECTED SKILLS:  
+- Programming Languages and Tools: Proficient with Python, Java, C, and Git.  
+- Python Libraries: Highly skilled with major Python libraries (NumPy, pandas, Matplotlib).  
+- Machine Learning: Experienced with ML and LLM libraries (transformers, spaCy, PyTorch, sklearn, and others).  
+- Sysadmin: Skilled Linux enthusiast, experienced in remote computing resources (SSH/SFTP, Bash, Slurm).
+
+---
+
+EDUCATION  
+- Ph.D. in Computer Science, GPA: 3.94/4, Universidad Nacional del Sur, Argentina (2017–2021)  
+  Thesis: Variable selection and causal discovery from newspaper article texts.
+- B.Sc. in Computer Systems Engineering, GPA: 3.51/4, Universidad Nacional del Sur, Argentina (2011–2016)
+
+---
+
+EXPERIENCE  
+
+- Postdoctoral Fellow (Aug 2023 – Aug 2024), Cape Breton University, Sydney, NS  
+  Research Focus: Developing explainable ML models to analyze real-world healthcare data from Nova Scotia.  
+  Objectives: Identify risk factors and create guidelines to tackle Unplanned Hospital Readmissions (UHR).  
+  Responsibilities: Managed the entire research process including formulating questions, literature review, experimentation, paper writing, and presenting findings.  
+  Achievements: Developed a guideline that reduced screening by 50% while capturing over 72% of UHR cases.
+
+- Postdoctoral Fellow (Jan 2022 – July 2023), Dalhousie University, Halifax, NS  
+  Research Focus: Reviewed active learning for high-recall information and provided solutions to social science researchers analyzing large textual datasets.  
+  Responsibilities: Designed and implemented an active learning system in Python, enabling real-time interaction with ML models.  
+  Achievements: Enabled social science researchers to retrieve information from over 2.9 million news articles, leading to novel research. Organized results using LLMs.
+
+- Research Fellow (Apr 2017 – Oct 2021), Institute for Computer Science and Engineering, Bahía Blanca, Argentina  
+  Overview: Interdisciplinary project focusing on extracting causal graphs from news article texts using causality learning, time series analysis, NLP, and ML tools.  
+  Achievements:  
+    * Built and evaluated an ML system using LLMs to detect events and variables from news articles, improving F1-score by 13.3%.  
+    * Condensed large text corpora into causal graphs using causal learning techniques.  
+    * Applied causal learning methods to an energy demand time-series dataset, reducing forecast errors by 12-27%.  
+    * Published articles on causal learning, NLP, and energy forecasting in top journals/conferences.
+
+- Teaching (Oct 2015 – Dec 2021), Universidad Nacional del Sur, Bahía Blanca, Argentina  
+  Roles: Teaching assistant, head teaching assistant, and professor in undergraduate courses.  
+  Courses: Object-oriented Programming, Computer Networking, and Embedded Systems.
+
+---
+
+AWARDS AND SCHOLARSHIPS  
+- Google Latin America Research Award (LARA) Winner (2019, 2020, 2021)  
+- Emerging Leaders in the Americas Program (ELAP) Scholarship Recipient, 2018  

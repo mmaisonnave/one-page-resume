@@ -1,0 +1,252 @@
+    % Plantilla de Currículum Vitae (moderncv)
+    
+    \documentclass[a4paper]{moderncv} % Puede definirse la familia de fuente roman o sans.
+    \moderncvtheme[grey]{classic} % El argumento obligatorio es el estilo: casual, classic, oldstyle o 
+                                  % banking. El argumento opcional es el color: black, blue, purple, 
+                                  % orange, red, green o grey.
+    \usepackage[english]{babel} % Usando el lenguaje spanish el carácter º no funciona (entra en 
+                                % conflicto con el símbolo de ítem de moderncv).
+    \usepackage[utf8x]{inputenc}
+    \usepackage[scale=0.85]{geometry} % Márgenes de la página.
+    \usepackage{ClearSans} % Fuente.
+    \usepackage[T1]{fontenc} % Codificación de fuente.
+    
+    \setlength{\hintscolumnwidth}{4cm} % Ancho del área de campo.
+    \recomputelengths % Necesario para cuando se cambian las longitudes del layout.
+    \pagestyle{fancy} % Agrega el número de página al pie
+    
+    
+    
+    % Información de Contacto
+    \firstname{Mariano} % No es opcional
+    \familyname{Maisonnave}
+    \title{Currículum Vitae} % No es opcional
+    
+    
+    
+    \address{\small Faculty of Computer Science}{\small Dalhousie University}{\small Halifax, Canadá}
+    \mobile{\small  +1 (902) 448-5124}
+    %\phone{Teléfono Fijo}
+    \photo[100pt]{Maisonnave3.jpg}
+    %\email{maiso.m@hotmail.com}
+    %\email{maiso.m@hotmail.com}
+    
+    \extrainfo{\small mariano.maisonnave@dal.ca}
+    %\extrainfo{}
+    %\quote{Lo esencial es invisible a los ojos}
+    
+    % Ajustes de los distintos tamaños de fuente
+    \renewcommand*\namefont{\fontsize{22}{40}\selectfont}
+    \renewcommand*\titlefont{\fontsize{20}{20}\fontshape{it}\selectfont}
+    \renewcommand*\addressfont{\fontsize{15}{18}\fontshape{it}\selectfont}
+    \renewcommand*\sectionfont{\fontsize{22}{24}\selectfont}
+    \renewcommand*\subsectionfont{\fontsize{18}{20}\selectfont}
+    \renewcommand*\hintfont{\fontsize{11}{2}\selectfont}
+    
+    
+    
+    
+    \begin{document}
+    \makecvtitle
+    
+    %\section{Información Personal}\smallskip
+    %\cvline{\textbf{D.N.I.}}{36.698.447}\smallskip
+    %%\cvline{\textbf{CUIL/CUIT}}{20-36698447-0}\smallskip
+    %\cvline{\textbf{Fecha de Nacimiento}}{15 de Octubre de 1992, Coronel Suárez}\smallskip
+    %%\cvline{\textbf{Lugar de Nacimiento}}{Coronel Su\'arez}\smallskip
+    %\cvline{\textbf{Nacionalidad}}{Argentino}\smallskip
+    %%\cvline{\textbf{Sexo}}{Masculino}\smallskip
+    %\cvline{\textbf{Ciudad Actual}}{Bah\'ia Blanca, Buenos Aires}\smallskip
+    %\cvline{\textbf{Código Postal}}{8000}\smallskip
+    %\cvline{\textbf{Provincia}}{Buenos Aires}\smallskip
+    %\cvline{\textbf{Estado Civil}}{Soltero}\smallskip
+    %\cvline{\textbf{Hijos}}{}\smallskip
+    
+    %\section{Experiencia Laboral}\smallskip
+    %\cvitem{1992--2014}{Absoultamente nada. :)}\smallskip
+    
+    \section{Instrucción Académica}\smallskip
+    %\cventry{1999--2006}{Formaci\'on B\'asica}{Escuela Domingo Faustino Sarmiento}{Coronel %Su\'arez}{}{}\smallskip
+    %\cventry{}{Promedio x.xx}{}{}{}{}
+    
+    \cventry{2017 --- 2021}{Doctor en Ciencias de la Computación}{Instituto de Ciencias e Ingeniería de la Computación (ICIC) - CONICET}{}{}{}
+    % {Beneficiario de una \textbf{Beca Interna Doctoral} otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) con una duración de 5 años, para realizar los estudios de posgrado}\smallskip
+    % \cventry{}{Promedio General 8.58}{a}{a}{a}{a}\smallskip
+    \cventry{}{Promedio General 9.86/10}{}{}{}{}
+    
+    \bigskip
+    
+    \cventry{2011 --- 2016}{Ingeniero en Sistemas de Computaci\'on}{Universidad Nacional del Sur}{Bahía Blanca}{}{}\smallskip
+    %\cventry{}{Incumbencias del t\'itulo}{}{Producci\'on y Actualizaci\'on de Software, Creaci\'on; Mantenimiento y Mejora de Sistemas Inform\'aticos, Electr\'onica, Arquitectura de Computadoras, Redes y Teleprocesamiento, Computaci\'on Gr\'afica y Visualizaci\'on, entre otros}{}{}
+    
+    \cventry{}{Promedio General 8.58/10}{}{}{}{\textbf{Promedio Sin Aplazos 8.78/10}.}
+    
+    
+    %\cventry{2006--2010}{T\'ecnico en Equipos e Instalaciones Electromec\'anicas}{Escuela T\'ecnica Nº 1}{Avellaneda 460, Coronel Su\'arez}{Buenos Aires}{}\smallskip
+    %\cventry{}{Incumbencias del t\'itulo}{}{Instalaciones El\'ectricas Dom\'esticas}{Carpinter\'ia, Torner\'ia, Electr\'onica, Mec\'anica del Automotor, entre otras}{}
+    %\cventry{}{Promedio 8.66}{(ocho con 66/100)}{}{}{}
+    
+    %\cventry{2006--2010}{Bachiller Modalidad producci\'on de Bienes y Servicios}{Escuela T\'ecnica Nº 1}{Avellaneda 460, Coronel Su\'arez}{Buenos Aires}{}\smallskip
+    %\cventry{}{Incumbencias del titulo}{}{Instalaciones El\'ectricas Dom\'esticas }{Carpinter\'ia, %Torner\'ia, Electr\'onica, Mec\'anica del Automotor}{}
+    %\cventry{}{Promedio 8.89}{(ocho con 89/100)}{}{}{}
+    
+    
+    
+    \section{Antecedentes Laborales}\smallskip
+        \cventry{2021 --- Actualidad}{Empleado postdoctoral}{}{Facultad de Ciencias de la Comptuación, Dalhousie University. Supervisor: Dr. Evangelos Milios}{}{}
+        
+    \cventry{2021 --- Actualidad}{Cargo como como Asistente}{en el Área: I}{Disciplina: Programación}{en la asignatura "\textbf{Introducción a la Programación Orientada a Objetos}"}{}
+        
+    \cventry{2017 --- Actualidad}{Cargo como Ayudante de Docencia "A"}{en el Área: IV, Disciplina: Sistemas, en la asignatura "\textbf{Sistemas Embebidos}"}{}{}{}
+    \cventry{2021}{Asignación Complementaria como Auxiliar de Docencia}{en el curso de nivelación de \textbf{Análisis y Resolución de Problemas} (ACP)}{}{}{}
+    \cventry{2020}{Asignación Complementaría como Ayudante de Docencia "A"}{en el Área: IV, Disciplina: Sistemas, en la asignatura "\textbf{Organización de Computadoras"}}{}{}{\begin{itemize}
+    \item Asignación por contrato para el período del segundo cuatrimestre del 2020.
+    \end{itemize}}
+    
+    \cventry{2020}{Asignación Complementaria como Profesor}{en el curso de nivelación de \textbf{Análisis y Resolución de Problemas} (ACP)}{}{}{}
+    \cventry{2019}{Asignación Complementaria como Asistente}{en el Área: I}{Disciplina: Programación}{en la asignatura "\textbf{Introducción a la Programación Orientada a Objetos}"}{}
+    
+    
+    \cventry{2015 --- 2019}{Cargo como Ayudante de Docencia "B"}{en el Área: I, Disciplina: Programación, en la asignatura "\textbf{Introducción a la Programación Orientada a Objetos}"}{}{}{
+    \begin{itemize}
+    \item Designación por concurso desde el 8 de septiembre del 2015 por el término de un año.
+    \item Prórroga de la designación hasta el 30 de noviembre del mismo año o efectivización del concurso.
+    \item Renovación por concurso desde el 1 de diciembre del 2016 por el  término de dos años.
+    \item Prórroga de la designación hasta el 31 de Julio de 2019 o la sustanciación del concurso.
+    \end{itemize}}%{Por extensión trabajando en la asignatura "Estructuras de Datos" del mismo Área en el año 2016}
+    \cventry{2017 --- 2018}{Cargo como Auxiliar de Docencia}{en el curso de nivelación de \textbf{Análisis y Resolución de Problemas} (ACP)}{}{}{\begin{itemize}
+    \item Ingreso 2017
+    \item Ingreso 2018
+    \end{itemize}}
+    
+    \cventry{2015 --- 2016}{Asignación Complementaría como Ayudante de Docencia "B"}{en el Área: II, Disciplina: Teoría de Ciencias de la Computación, en la asignatura "\textbf{Lenguajes Formales y Autómatas"}}{}{}{\begin{itemize}
+    \item Asignación por contrato para el período del 13 de Octubre al 4 de Diciembre del 2015.
+    \item Asignación por contrato para el período del  1 de Septiembre al 2 de Diciembre del 2016.
+    \end{itemize}}
+    
+    
+    
+    \cventry{2015 --- 2016}{Becario del Programa de Divulgadores de la Fundación Sadosky}{parte del convenio de Servicio de Asistencia Técnica firmado entre la Fundación Sadosky de Investigación y Desarrollo en TIC con la Universidad Nacional del Sur.}{}{}{\begin{itemize}
+    \item Contratado para el segundo cuatrimestre de 2015.
+    \item Renovación para un segundo período durante el primer cuatrimestre de 2016
+    \end{itemize}}
+    
+    %\cventry{2015-2017}{Beneficiario de las Becas de Estímulo a las Vocaciones Científicas}{Consejo Interuniversitario Nacional (CIN)}{Argentina}{}{Titulo de la Investigación: Aprendizaje Adaptativo Aplicado a la Recuperación de Información Contextualizada }\smallskip
+    
+    \cventry{2017}{Clase p\'ublica para Concurso de Asistente con dedicación simple}{Materia Sistemas Embebidos}{}{Segundo en orden de m\'erito}{El día 17 de abril de 2019}{}\smallskip
+    
+    \cventry{2017}{Clase p\'ublica para Concurso de Ayudante A}{Materia Sistemas Embebidos}{}{Primero en orden de m\'erito}{El día 18 de Agosto de 2017 }{}\smallskip
+    
+    \cventry{2016}{Clase p\'ublica para Concurso de Ayudante B}{Con motivo de renovar el cargo en la materia Introducción a la Programación Orientada a Objetos por dos años más}{}{Primero en orden de m\'erito}{El día 7 de Noviembre de 2016}{}\smallskip
+    
+    \cventry{2015}{Clase p\'ublica para Concurso de Ayudante B}{Materia Introducción a la Programación Orientada a Objetos}{}{Primero en orden de m\'erito}{El día 24 de Agosto de 2015}{}\smallskip
+    \cventry{2014}{Clase p\'ublica para Concurso de Ayudante B}{Materia Computaci\'on Gr\'afica}{}{Segundo en orden de m\'erito}{El día 19 de Diciembre de 2014 }{}\smallskip
+    
+    
+    
+    \section{Gesti\'on Universitaria }\smallskip
+    \cventry{2021-Actualidad}{Coordinador de Acciones Tutoriales}{Departamento de Ciencias e Ingeniería de la Computación}{Universidad Nacional del Sur}{en el marco del Proyecto de Acompañamiento Nivelatorio establecido por
+    resolución CSU-506/2020, para las etapas del Ingreso
+    2021}{}
+    \cventry{2017-Actualidad}{Tutor Docente}{Departamento de Ciencias e Ingeniería de la Computación}{Universidad Nacional del Sur}{}{(Parcialmente en el rol de tutor docente consolidado y durante períodos como tutor \textit{ad honorem})}
+    %{
+    %Detalle \newline{}
+    %\begin{itemize}%
+    %\item Achievement 1;
+    %\item Achievement 2, 
+    %\item Achievement 3.
+    %\end{itemize}}
+    
+    
+    \cventry{2015 --- 2017}{Tutor Alumno}{Departamento de Ciencias e Ingeniería de la Computación}{Universidad Nacional del Sur}{}{}
+    \cventry{2016}{Tesorero del Centro de Estudiantes de Computación}{}{Universidad Nacional del Sur}{}{}
+    \cventry{2015}{Consejero Departamental}{Departamento de Ciencias e Ingeniería de la Computación}{Universidad Nacional del Sur}{en representación del claustro de alumnos}{Electo en los comicios del d\'ia 7 de noviembre del 2014.}\smallskip
+    \cventry{2015}{Miembro de la Comisión de Asuntos Académicos}{Departamento de Ciencias e Ingeniería de la Computación}{Universidad Nacional del Sur}{}{}
+    \cventry{2015}{Vicepresidente del Centro de Estudiantes de Computación}{}{Universidad Nacional del Sur}{}{}
+    
+    \section{Reconocimientos y Premios}\smallskip
+    \cventry{2020}{Google Latin America Research Awards (LARA)}{Proyecto: "Learning Causal Models from Digital Media"}{bajo la dirección de la investigadora Ana G. Maguitman}{}{(Premio otorgado como extensión al proyecto presentado en 2019)}
+    \cventry{2019}{Google Latin America Research Awards (LARA)}{Proyecto: "Learning Causal Models from Digital Media"}{bajo la dirección de la investigadora Ana G. Maguitman}{}{}
+    \cventry{2019}{Becario Emerging Leaders in the Americas Program (ELAP)}{Estancia de investigación por el término de cuatro meses en la Universidad de Dalhousie, Halifax, Canadá}{}{}{}
+    \cventry{2019}{Beca Doctoral}{Otorgada por el Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET) por el término de 5 años}{desde Abril del 2017 hasta Abril del 2022}{}{\underline{Directora}: Dra. Ana G. Maguitman. \\ \underline{Co-director}: Dr. Fernando A. Tohmé}
+    \cventry{2015-2017}{Beneficiario de una beca de ``Estímulo a las Vocaciones Científicas''}{Otorgada por el Consejo Interuniversitario Nacional (CIN)}{Argentina}{}{\underline{Título del proyecto}: Aprendizaje Adaptativo Aplicado a la Recuperación de Información Contextualizada. \\ \underline{Directora}: Dra. Ana G. Maguitman}\smallskip
+    
+    
+    
+    
+    
+    \section{Publicaciones}
+    %\cventry{2021}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F. and Maguitman, A., 2021. Assessing the behavior and performance of a supervised term-weighting technique for topic-based retrieval. Information Processing & Management, 58(3), p.102483.}{}{}{}{}
+
+    \cventry{2022}{\normalfont Maisonnave, M., Delbianco, F., Tohme, F., Milios, E. and Maguitman, A.G., 2022. \textit{Causal graph extraction from news: a comparative study of time-series causality learning techniques}. PeerJ Computer Science, 8, p.e1066}{}{}{}{}
+
+    \cventry{2022}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F., Maguitman, A. and Milios, E., 2022. \textit{Detecting ongoing events using contextual word and sentence embeddings}. Expert Systems with Applications, 209, p.118257}{}{}{}{}
+    
+    \cventry{2021}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F. and Maguitman, A., 2021. \textit{Assessing the behavior and performance of a supervised term-weighting technique for topic-based retrieval}. Information Processing \& Management, 58(3), p.102483}{}{}{}{}
+    %\cventry{2020}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F., Maguitman, A. and Milios, E., 2020. Improving Event Detection using Contextual Word and Sentence Embeddings. arXiv preprint arXiv:2007.01379}{}{}{}{}
+    \cventry{2019}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F.A. and Maguitman, A.G., 2019. \textit{A Flexible Supervised Term-Weighting Technique and its Application to Variable Extraction and Information Retrieval}. Inteligencia Artificial, 22(63), pp.61-80}{}{}{}{}
+    
+    \section{Publicaciones y Comunicaciones en Congresos}\smallskip
+
+    \cventry{2020}{\normalfont Ramirez-Orta, J., Sabando, M.V., Maisonnave, M. and Milios, E., 2022. \textit{MALNIS at IberLEF-2022 DETESTS Task: A Multi-Task Learning Approach for Low-Resource Detection of Racial Stereotypes in Spanish}. In Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022). CEUR Workshop Proceedings, CEUR-WS. org}{}{}{}{}
+    
+    \cventry{2020}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F., Maguitman, A.G. and Milios, E.E., 2020, September. Assessing Causality Structures learned from Digital Text Media. In Proceedings of the ACM Symposium on Document Engineering 2020 (pp. 1-4)}{}{}{}{}
+    
+    \cventry{2019}{\normalfont Maisonnave, M., 2019, Junio}{Detección de Textos Similares a través de una Técnica de Agrupamiento Basada en Densidad.}{Comunicación en XV Congreso Dr. Antonio Monteiro}{}{}
+    \cventry{2018}{\normalfont Maisonnave, M., Delbianco, F., Tohmé, F.A. and Maguitman, A.G., 2018, Noviembre}{A Supervised Term-Weighting Method and its Application to Variable Extraction from Digital Media}{In XIX Simposio Argentino de Inteligencia Artificial (ASAI)-JAIIO 47}{}{}
+    
+    
+    
+    \section{Proyectos}
+    \cventry{2019 --- Actualidad}{Recuperación de Información basada en Contextos Temáticos}{PGI: 24/N051}{Director: Ana G. Maguitman. Fuente de financiamiento: Universidad Nacional del Sur}{}{Período 01-01-2019 al 31-12-2022}
+    \cventry{2015-2019}{Combining Context-based Search and Argumentation for delivering information in E-Gov Infrastructures}{PICT-2014-0624}{Director: Ana G. Maguitman. Fuente de financiamiento: Agencia Nacional de Promoción Científica y Tecnológica}{}{}
+    
+    \cventry{2015 --- 2018}{Soporte Inteligente para Facilitar el Acceso a Recursos Digitales en Entornos Distribuidos}{PGI: 24/N039}{Director: Ana G. Maguitman. Fuente de financiamiento: Universidad Nacional del Sur}{}{Período 01-01-2015 al 31-12-2018}
+    
+    
+    \section{Cursos}\smallskip
+    \cventry{2019}{Procesamiento del lenguaje natural con redes neuronales (duración 15hs)}{Escuela de Ciencias Informáticas (ECI) 2019 - Universidad de Buenos Aires (UBA)}{Argentina}{}{Prof. Germán Kruszewski, Facebook AI, Reino Unido}\smallskip
+    \cventry{}{Nota: 8}{}{}{}{}
+    
+    \cventry{2019}{Aprendizaje profundo por refuerzo (duración 15hs)}{Escuela de Ciencias Informáticas (ECI) 2019 - Universidad de Buenos Aires (UBA)}{Argentina}{}{Prof. Juan Gomez Romero, Universidad de Granada, España}\smallskip
+    \cventry{}{Nota: 7}{}{}{}{}
+    
+    \cventry{2019}{Clasificadores Probabilísticos en Aprendizaje Automático (duración 15hs)}{Escuela de Ciencias Informáticas (ECI) 2019 - Universidad de Buenos Aires (UBA)}{Argentina}{}{Prof. Daniel Ramos Castro, Universidad Autonoma de Madrid, España}\smallskip
+    \cventry{}{Nota: 6}{}{}{}{}
+    
+    \cventry{2019}{Modelos Probabilísticos (duración 4hs)}{XV Congreso Dr. Antonio Monteiro}{Bahía Blanca}{}{Prof. Pablo Martín Rodriguez}
+    \cventry{2016}{Microsoft .NET C\#, ASP.NET MV5 con Entity Framework (duración 12hs)}{HexactaLabs}{Argentina}{}{}
+    \cventry{2015}{Protegiendo la Confidencialidad e Integridad de Datos en la Web (duración 15hs)}{Escuela de Ciencias Informáticas (ECI) 2015 - Universidad de Buenos Aires (UBA)}{Argentina}{}{Prof. Alejandro Russo}\smallskip
+    \cventry{}{Nota: 10}{}{}{}{}
+    \cventry{2015}{Computer Science and Privacy (duración 15hs)}{Escuela de Ciencias Informáticas (ECI) 2015 - Universidad de Buenos Aires (UBA)}{Argentina}{}{Prof. Frederic Prost}\smallskip
+    \cventry{2014}{Curso Introductorio de \LaTeX (duración 8hs)}{Universidad Nacional del Sur}{Bah\'ia Blanca}{Argentina}{Disertante Mariano López Minnucci} \smallskip
+    \cventry{2014}{Curso introductorio a la programaci\'on en MatLab(duración 8hs)}{Universidad Nacional del Sur}{Bah\'ia Blanca}{Argentina}{Prof. Ariel Arelovich}\smallskip
+    
+    
+    \section{Asistencias a Congresos y Simposios}\smallskip
+    \cventry{2019}{Escuela de Ciencias Informáticas (ECI)}{Departamento de Computación de la Facultad de Ciencias Exactas y Naturales }{Universidad de Buenos Aires (UBA)}{}  \smallskip
+    \cventry{2019}{XV Congreso Dr. Antonio Monteiro}{Universidad Nacional del Sur}{}{}{}
+    \cventry{2018}{47 Jornadas Argentinas de Informática (JAIIO)}{Universidad de Palermo}{(CABA)}{}{}\smallskip
+    
+    \cventry{2017}{Simposio Argentino de Sistemas Embebidos}{Facultad De Ingenier\'ia}{Universidad de Buenos Aires (UBA)}{}{}\smallskip
+    \cventry{2015}{Escuela de Ciencias Informáticas (ECI)}{Departamento de Computación de la Facultad de Ciencias Exactas y Naturales }{Universidad de Buenos Aires (UBA)}{}  \smallskip
+    \cventry{2014}{Simposio Argentino de Sistemas Embebidos}{Facultad De Ingenier\'ia}{Universidad de Buenos Aires (UBA)}{}{}\smallskip
+    
+    
+    
+    %“Recuperación de Información basada en Contextos Temáticos” - código 24/N051. Período de vigencia es 01/01/2019 - 31/12/2022. No han mandado la resolución aún ni tampoco se sabe con antelación los montos que asignarán al proyecto ya que eso se resuelve año a año. Si quieren incluir la información en sigeva, sugiero poner $250.000, que es el monto total que pedí para los 4 años (aunque seguramente será menos lo que nos asignen). 
+    
+    
+    
+    \section{Idiomas}\smallskip
+    \cventry{2014}{Ingl\'es Nivel B1 (Intermediate)}{Marco Común Europeo de Referencia para las lenguas}{}{}{}
+    \cventry{2014 --- 2015}{Ingl\'es como Lengua Extranjera (ILEI, ILEII y ILEIII aprobado)}{Universidad Nacional del Sur}{Bah\'ia Blanca}{Buenos Aires}{Lectura: Avanzado.\\Comprensión Oral: Avanzado.\\ Redacción: Avanzado.\\ Producción Oral: Avanzado.} \smallskip
+    
+    \cventry{2015}{Franc\'es Nivel A1 (Introductif ou D\'ecouverte)}{Marco Común Europeo de Referencia para las lenguas}{}{}{}\smallskip
+    \cventry{2015}{Cursos de Francés para Estudiantes de la Universidad Nacional del Sur (FUNS1, FUNS2 y FUNS3 aprobados)}{Alianza Francesa Bah\'ia Blanca}{Buenos Aires}{}
+    {Lectura: Intermedio.\\Comprensión Oral: Intermedio.\\ Redacción: Básico.\\ Producción Oral: Básico.}\smallskip
+    
+    
+    	
+    \end{document}
+    
